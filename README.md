@@ -6,7 +6,4 @@ Tecnologias
 - CSS3
 - Lógica de programação
 Demonstração
-
-
-Acesse o projeto
-[Visualizar online](https://seuusuario.github.io/portfolio-pessoal/)
+https://github.com/mariapureza/portfolio-pessoal/blob/main/screenshot-portfolio.png
