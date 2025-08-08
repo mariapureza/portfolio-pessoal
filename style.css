@@ -1,0 +1,152 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #f0f4f8;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 3px solid #3498db;
+  margin-bottom: 40px;
+}
+
+.foto-perfil {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(52, 152, 219, 0.5);
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+  color: #2c3e50;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+header a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-left: 5px solid #3498db;
+  padding-left: 10px;
+  color: #2c3e50;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: #3498db;
+  color: white;
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 6px 10px 6px 0;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.projeto {
+  background: white;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.projeto:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.projeto img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.projeto h3 {
+  color: #2c3e50;
+  margin: 15px 15px 5px 15px;
+}
+
+.projeto p {
+  margin: 0 15px 10px 15px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.projeto a {
+  display: block;
+  text-align: center;
+  margin: 0 15px;
+  padding: 8px 0;
+  background-color: #3498db;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.projeto a:hover {
+  background-color: #217dbb;
+}
+
+#contato p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 650px) {
+  .projetos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projeto {
+    width: 90%;
+  }
+}
