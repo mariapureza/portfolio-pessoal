@@ -8,3 +8,6 @@ Tecnologias
 
 Demonstração
 https://github.com/mariapureza/portfolio-pessoal/blob/main/screenshot-portfolio.png
+
+Acesse o projeto
+https://mariapureza.github.io/portfolio-pessoal/
